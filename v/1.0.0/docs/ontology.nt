@@ -1,0 +1,602 @@
+<https://w3id.org/circularfactory/IntralogisticSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/circularfactory/IntralogisticSystem> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/circularfactory/IntralogisticSystem/1.0.0> .
+<https://w3id.org/circularfactory/IntralogisticSystem> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/circularfactory/Core> .
+<https://w3id.org/circularfactory/IntralogisticSystem> <http://purl.org/dc/terms/created> "2025-09-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/circularfactory/IntralogisticSystem> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-3704-9567> .
+<https://w3id.org/circularfactory/IntralogisticSystem> <http://purl.org/dc/terms/creator> <https://orcid.org/0009-0000-7690-2850> .
+<https://w3id.org/circularfactory/IntralogisticSystem> <http://purl.org/dc/terms/creator> <https://orcid.org/0009-0000-9081-8970> .
+<https://w3id.org/circularfactory/IntralogisticSystem> <http://purl.org/dc/terms/title> "The Intralogistic System Ontology for a Circular Factory" .
+<https://w3id.org/circularfactory/IntralogisticSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology modeling the modular intralogistics system as developed for a circular factory" .
+<https://w3id.org/circularfactory/IntralogisticSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Intralogistic System Ontology" .
+<https://w3id.org/circularfactory/IntralogisticSystem> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#qualifiedCardinality
+<http://www.w3.org/2002/07/owl#qualifiedCardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://w3id.org/circularfactory/Core#hasCapability
+<http://w3id.org/circularfactory/Core#hasCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://w3id.org/circularfactory/Core#implementsCapability
+<http://w3id.org/circularfactory/Core#implementsCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#auctionsToMobileRobot
+<http://w3id.org/circularfactory/IntralogisticSystem#auctionsToMobileRobot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#auctionsToMobileRobot> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#Auctioneer> .
+<http://w3id.org/circularfactory/IntralogisticSystem#auctionsToMobileRobot> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> .
+<http://w3id.org/circularfactory/IntralogisticSystem#auctionsToMobileRobot> <http://www.w3.org/2000/01/rdf-schema#comment> "Mobile robot that is auctioning a task." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#auctionsToModule
+<http://w3id.org/circularfactory/IntralogisticSystem#auctionsToModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#auctionsToModule> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#Auctioneer> .
+<http://w3id.org/circularfactory/IntralogisticSystem#auctionsToModule> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#Module> .
+<http://w3id.org/circularfactory/IntralogisticSystem#auctionsToModule> <http://www.w3.org/2000/01/rdf-schema#comment> "Module that is auctioning a task." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#charges
+<http://w3id.org/circularfactory/IntralogisticSystem#charges> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#charges> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#ChargingStation> .
+<http://w3id.org/circularfactory/IntralogisticSystem#charges> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#Module> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#connectsToModuleAdapter
+<http://w3id.org/circularfactory/IntralogisticSystem#connectsToModuleAdapter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#connectsToModuleAdapter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#ModuleAdapter> .
+<http://w3id.org/circularfactory/IntralogisticSystem#connectsToModuleAdapter> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#Module> .
+<http://w3id.org/circularfactory/IntralogisticSystem#connectsToModuleAdapter> <http://www.w3.org/2000/01/rdf-schema#comment> "Module that can be connected to a MobileRobot via this adapter." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#createsIntralogisticsAtomicTask
+<http://w3id.org/circularfactory/IntralogisticSystem#createsIntralogisticsAtomicTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#createsIntralogisticsAtomicTask> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#Auctioneer> .
+<http://w3id.org/circularfactory/IntralogisticSystem#createsIntralogisticsAtomicTask> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> .
+<http://w3id.org/circularfactory/IntralogisticSystem#createsIntralogisticsAtomicTask> <http://www.w3.org/2000/01/rdf-schema#comment> "An intralogistics atomic task created by an auctioneer." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#createsIntralogisticsOperation
+<http://w3id.org/circularfactory/IntralogisticSystem#createsIntralogisticsOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#createsIntralogisticsOperation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#Auctioneer> .
+<http://w3id.org/circularfactory/IntralogisticSystem#createsIntralogisticsOperation> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> .
+<http://w3id.org/circularfactory/IntralogisticSystem#createsIntralogisticsOperation> <http://www.w3.org/2000/01/rdf-schema#comment> "An intralogistics operation created by an auctioneer." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#distributedByAuctioneer
+<http://w3id.org/circularfactory/IntralogisticSystem#distributedByAuctioneer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#distributedByAuctioneer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> .
+<http://w3id.org/circularfactory/IntralogisticSystem#distributedByAuctioneer> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#Auctioneer> .
+<http://w3id.org/circularfactory/IntralogisticSystem#distributedByAuctioneer> <http://www.w3.org/2000/01/rdf-schema#comment> "Auctioneer that distributed the task." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#givesBid
+<http://w3id.org/circularfactory/IntralogisticSystem#givesBid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#givesBid> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/circularfactory/IntralogisticSystem#Module> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#givesBid> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#Auctioneer> .
+<http://w3id.org/circularfactory/IntralogisticSystem#givesBid> <http://www.w3.org/2000/01/rdf-schema#comment> "Resource (robot or module) that places a bid for a task auctioned by the auctioneer." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasInputTask
+<http://w3id.org/circularfactory/IntralogisticSystem#hasInputTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasInputTask> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#Auctioneer> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasInputTask> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasInputTask> <http://www.w3.org/2000/01/rdf-schema#comment> "Input task required to perform the operation." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasLaserScanner
+<http://w3id.org/circularfactory/IntralogisticSystem#hasLaserScanner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasLaserScanner> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasLaserScanner> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#LaserScanner> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasLaserScanner> <http://www.w3.org/2000/01/rdf-schema#comment> "Laser scanner mounted on a MobileRobot." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotPose
+<http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotPose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotPose> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotPose> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotPose> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotSchedule
+<http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotSchedule> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotSchedule> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotSchedule> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasModuleAdapter
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModuleAdapter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModuleAdapter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModuleAdapter> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#ModuleAdapter> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModuleAdapter> <http://www.w3.org/2000/01/rdf-schema#comment> "Adapter used by a MobileRobot to connect to a Module." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasModulePose
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModulePose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModulePose> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#Module> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModulePose> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#ModulePose> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasModuleSchedule
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModuleSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModuleSchedule> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#Module> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModuleSchedule> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#ModuleSchedule> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasMountedModule
+<http://w3id.org/circularfactory/IntralogisticSystem#hasMountedModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasMountedModule> <http://www.w3.org/2002/07/owl#inverseOf> <http://w3id.org/circularfactory/IntralogisticSystem#mountedOn> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasMountedModule> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasMountedModule> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#Module> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasOperationStatus
+<http://w3id.org/circularfactory/IntralogisticSystem#hasOperationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasOperationStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasOperationStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#OperationStatus> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasPickupLocation
+<http://w3id.org/circularfactory/IntralogisticSystem#hasPickupLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasPickupLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasPickupLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/Core#Location> .
+<http://w3id.org/circularfactory/Core#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasTargetLocation
+<http://w3id.org/circularfactory/IntralogisticSystem#hasTargetLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasTargetLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasTargetLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/Core#Location> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasTaskStatus
+<http://w3id.org/circularfactory/IntralogisticSystem#hasTaskStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasTaskStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasTaskStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#TaskStatus> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasWheel
+<http://w3id.org/circularfactory/IntralogisticSystem#hasWheel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasWheel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasWheel> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#MecanumWheel> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasWheel> <http://www.w3.org/2000/01/rdf-schema#comment> "Omnidirectional wheel used by a MobileRobot." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#mountedOn
+<http://w3id.org/circularfactory/IntralogisticSystem#mountedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#mountedOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#Module> .
+<http://w3id.org/circularfactory/IntralogisticSystem#mountedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> .
+<http://w3id.org/circularfactory/IntralogisticSystem#mountedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "Module currently mounted on a MobileRobot." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#sendsStartSignal
+<http://w3id.org/circularfactory/IntralogisticSystem#sendsStartSignal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#sendsStartSignal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#Module> .
+<http://w3id.org/circularfactory/IntralogisticSystem#sendsStartSignal> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/circularfactory/IntralogisticSystem#StartSignal> .
+<http://w3id.org/circularfactory/IntralogisticSystem#sendsStartSignal> <http://www.w3.org/2000/01/rdf-schema#comment> "Signal sent by a module to indicate the start of an operation." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestPickUpTime
+<http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestPickUpTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestPickUpTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestPickUpTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestStartTime
+<http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestStartTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestStartTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestStartTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasLatestDeliveryTime
+<http://w3id.org/circularfactory/IntralogisticSystem#hasLatestDeliveryTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasLatestDeliveryTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasLatestDeliveryTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasLatestFinishTime
+<http://w3id.org/circularfactory/IntralogisticSystem#hasLatestFinishTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasLatestFinishTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasLatestFinishTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasLatestPickUpTime
+<http://w3id.org/circularfactory/IntralogisticSystem#hasLatestPickUpTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasLatestPickUpTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasLatestPickUpTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasModuleHeight
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModuleHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModuleHeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#Module> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModuleHeight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasModuleHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Height of the module in mm." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasPlannedFinishTime
+<http://w3id.org/circularfactory/IntralogisticSystem#hasPlannedFinishTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasPlannedFinishTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasPlannedFinishTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasPlannedStartTime
+<http://w3id.org/circularfactory/IntralogisticSystem#hasPlannedStartTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasPlannedStartTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasPlannedStartTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#hasVelocity
+<http://w3id.org/circularfactory/IntralogisticSystem#hasVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasVelocity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasVelocity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://w3id.org/circularfactory/IntralogisticSystem#hasVelocity> <http://www.w3.org/2000/01/rdf-schema#comment> "m/s" .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#starting_time
+<http://w3id.org/circularfactory/IntralogisticSystem#starting_time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#starting_time> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/Core#Task> .
+<http://w3id.org/circularfactory/Core#Task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#starting_time> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#system_status
+<http://w3id.org/circularfactory/IntralogisticSystem#system_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/circularfactory/IntralogisticSystem#system_status> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/circularfactory/Core#Task> .
+<http://w3id.org/circularfactory/IntralogisticSystem#system_status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://w3id.org/circularfactory/IntralogisticSystem#system_status> <http://www.w3.org/2000/01/rdf-schema#comment> "Current status of task execution (e.g., planned, running, success, failure)." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://org.semanticweb.owlapi/error#Error1
+<http://org.semanticweb.owlapi/error#Error1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error2
+<http://org.semanticweb.owlapi/error#Error2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error3
+<http://org.semanticweb.owlapi/error#Error3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error4
+<http://org.semanticweb.owlapi/error#Error4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error5
+<http://org.semanticweb.owlapi/error#Error5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error6
+<http://org.semanticweb.owlapi/error#Error6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://w3id.org/circularfactory/Core#AtomicTask
+<http://w3id.org/circularfactory/Core#AtomicTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://w3id.org/circularfactory/Core#Capability
+<http://w3id.org/circularfactory/Core#Capability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://w3id.org/circularfactory/Core#CompositeTask
+<http://w3id.org/circularfactory/Core#CompositeTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://w3id.org/circularfactory/Core#Location
+# 
+# http://w3id.org/circularfactory/Core#Operation
+<http://w3id.org/circularfactory/Core#Operation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://w3id.org/circularfactory/Core#Resource
+<http://w3id.org/circularfactory/Core#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://w3id.org/circularfactory/Core#Sensor
+<http://w3id.org/circularfactory/Core#Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://w3id.org/circularfactory/Core#Task
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#Auctioneer
+<http://w3id.org/circularfactory/IntralogisticSystem#Auctioneer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#Auctioneer> <http://www.w3.org/2000/01/rdf-schema#comment> "Auctions tasks and awards them to resources." .
+<http://w3id.org/circularfactory/IntralogisticSystem#Auctioneer> <http://www.w3.org/2000/01/rdf-schema#label> "Auctioneer" .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#ChargingCapability
+<http://w3id.org/circularfactory/IntralogisticSystem#ChargingCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ChargingCapability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsCapability> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#ChargingOperation
+<http://w3id.org/circularfactory/IntralogisticSystem#ChargingOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ChargingOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ChargingOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/circularfactory/IntralogisticSystem#ChargingCapability> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/Core#implementsCapability> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#ChargingStation
+<http://w3id.org/circularfactory/IntralogisticSystem#ChargingStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ChargingStation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/Core#Resource> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ChargingStation> <http://www.w3.org/2000/01/rdf-schema#comment> "Charging stations where modules can be charged." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#ChargingTask
+<http://w3id.org/circularfactory/IntralogisticSystem#ChargingTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ChargingTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error3> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/Core#AtomicTask> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid5 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestStartTime> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasLatestFinishTime> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> <http://www.w3.org/2000/01/rdf-schema#comment> "Atomic (non-decomposable) intralogistics task." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsCapability
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsCapability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/Core#Capability> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error6> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/Core#Operation> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#onClass> <http://w3id.org/circularfactory/IntralogisticSystem#OperationStatus> .
+_:genid7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasOperationStatus> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid8 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasPlannedFinishTime> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid9 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasPlannedStartTime> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error4> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error5> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/Core#CompositeTask> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid10 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestPickUpTime> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid11 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasLatestDeliveryTime> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid12 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasLatestPickUpTime> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> <http://www.w3.org/2000/01/rdf-schema#comment> "Composite task in the intralogistics domain." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#LaserScanner
+<http://w3id.org/circularfactory/IntralogisticSystem#LaserScanner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#LaserScanner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/Core#Sensor> .
+<http://w3id.org/circularfactory/IntralogisticSystem#LaserScanner> <http://www.w3.org/2000/01/rdf-schema#comment> "Laser-based localization or safety sensor." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#ManipulationCapability
+<http://w3id.org/circularfactory/IntralogisticSystem#ManipulationCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ManipulationCapability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsCapability> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#ManipulationOperation
+<http://w3id.org/circularfactory/IntralogisticSystem#ManipulationOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ManipulationOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ManipulationOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/circularfactory/IntralogisticSystem#ManipulationCapability> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/Core#implementsCapability> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#ManipulationTask
+<http://w3id.org/circularfactory/IntralogisticSystem#ManipulationTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ManipulationTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#ManipulatorModule
+<http://w3id.org/circularfactory/IntralogisticSystem#ManipulatorModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ManipulatorModule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#Module> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ManipulatorModule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/circularfactory/IntralogisticSystem#ManipulationCapability> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/Core#hasCapability> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ManipulatorModule> <http://www.w3.org/2000/01/rdf-schema#comment> "Module with integrated manipulation system." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#MecanumWheel
+<http://w3id.org/circularfactory/IntralogisticSystem#MecanumWheel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MecanumWheel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/Core#Resource> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MecanumWheel> <http://www.w3.org/2000/01/rdf-schema#comment> "Omnidirectional wheel for AMRs." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error2> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/Core#Resource> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/circularfactory/IntralogisticSystem#Mounting> .
+<http://w3id.org/circularfactory/IntralogisticSystem#Mounting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/Core#hasCapability> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/circularfactory/IntralogisticSystem#MoveCapability> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/Core#hasCapability> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/circularfactory/IntralogisticSystem#LaserScanner> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasLaserScanner> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotSchedule> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotSchedule> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/circularfactory/IntralogisticSystem#ModuleAdapter> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasModuleAdapter> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/circularfactory/IntralogisticSystem#MecanumWheel> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasWheel> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid21 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasVelocity> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> <http://www.w3.org/2000/01/rdf-schema#comment> "An autonomous mobile robot used to move modules." .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> <http://www.w3.org/2000/01/rdf-schema#label> "MobileRobot" .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotPose
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotPose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotPose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/Core#Location> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotPose> <http://www.w3.org/2000/01/rdf-schema#comment> "The pose of a mobile robot." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotSchedule
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotSchedule> <http://www.w3.org/2000/01/rdf-schema#comment> "Schedule for a MobileRobot." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#Module
+<http://w3id.org/circularfactory/IntralogisticSystem#Module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#Module> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error1> .
+<http://w3id.org/circularfactory/IntralogisticSystem#Module> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/Core#Resource> .
+<http://w3id.org/circularfactory/IntralogisticSystem#Module> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/circularfactory/IntralogisticSystem#ModuleAdapter> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#connectsToModuleAdapter> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#Module> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/circularfactory/IntralogisticSystem#ModuleSchedule> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasModuleSchedule> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#Module> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid24 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/IntralogisticSystem#hasModuleHeight> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/circularfactory/IntralogisticSystem#Module> <http://www.w3.org/2000/01/rdf-schema#comment> "An intralogistic module that can be mounted and moved by a MobileRobot." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#ModuleAdapter
+<http://w3id.org/circularfactory/IntralogisticSystem#ModuleAdapter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ModuleAdapter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/Core#Resource> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ModuleAdapter> <http://www.w3.org/2000/01/rdf-schema#comment> "Adapter to connect a mobile robot and a module." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#ModulePose
+<http://w3id.org/circularfactory/IntralogisticSystem#ModulePose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ModulePose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/Core#Location> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ModulePose> <http://www.w3.org/2000/01/rdf-schema#comment> "The pose of a module." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#ModuleSchedule
+<http://w3id.org/circularfactory/IntralogisticSystem#ModuleSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#ModuleSchedule> <http://www.w3.org/2000/01/rdf-schema#comment> "Schedule for a Module." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#Mounting
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#MoveCapability
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveCapability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsCapability> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#MoveOperation
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/circularfactory/IntralogisticSystem#MoveCapability> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/Core#implementsCapability> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfCapability
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfCapability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsCapability> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfOperation
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfCapability> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/circularfactory/Core#implementsCapability> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfTask
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#MoveTask
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#MoveTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#OperationStatus
+<http://w3id.org/circularfactory/IntralogisticSystem#OperationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#StartSignal
+<http://w3id.org/circularfactory/IntralogisticSystem#StartSignal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#StartSignal> <http://www.w3.org/2000/01/rdf-schema#comment> "Signal indicating the start of an operation." .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#TaskStatus
+<http://w3id.org/circularfactory/IntralogisticSystem#TaskStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://w3id.org/circularfactory/IntralogisticSystem#TransportModule
+<http://w3id.org/circularfactory/IntralogisticSystem#TransportModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/circularfactory/IntralogisticSystem#TransportModule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/circularfactory/IntralogisticSystem#Module> .
+<http://w3id.org/circularfactory/IntralogisticSystem#TransportModule> <http://www.w3.org/2000/01/rdf-schema#comment> "Module specialized for transporting items/loads." .
+# 
+# http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://orcid.org/0000-0002-3704-9567
+<https://orcid.org/0000-0002-3704-9567> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://orcid.org/0000-0002-3704-9567> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://orcid.org/0000-0002-3704-9567> <http://xmlns.com/foaf/0.1/name> "Jan-Felix Klein" .
+# 
+# https://orcid.org/0009-0000-7690-2850
+<https://orcid.org/0009-0000-7690-2850> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://orcid.org/0009-0000-7690-2850> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://orcid.org/0009-0000-7690-2850> <http://xmlns.com/foaf/0.1/name> "Alexander Ernst" .
+# 
+# https://orcid.org/0009-0000-9081-8970
+<https://orcid.org/0009-0000-9081-8970> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://orcid.org/0009-0000-9081-8970> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://orcid.org/0009-0000-9081-8970> <http://xmlns.com/foaf/0.1/name> "Pietro Schumacher" .
+# 
+_:genid27 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid28 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid29 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid30 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid31 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid32 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
