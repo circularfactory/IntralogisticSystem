@@ -299,26 +299,6 @@ xsd:date rdf:type rdfs:Datatype .
 <http://org.semanticweb.owlapi/error#Error1> rdf:type owl:Class .
 
 
-###  http://org.semanticweb.owlapi/error#Error2
-<http://org.semanticweb.owlapi/error#Error2> rdf:type owl:Class .
-
-
-###  http://org.semanticweb.owlapi/error#Error3
-<http://org.semanticweb.owlapi/error#Error3> rdf:type owl:Class .
-
-
-###  http://org.semanticweb.owlapi/error#Error4
-<http://org.semanticweb.owlapi/error#Error4> rdf:type owl:Class .
-
-
-###  http://org.semanticweb.owlapi/error#Error5
-<http://org.semanticweb.owlapi/error#Error5> rdf:type owl:Class .
-
-
-###  http://org.semanticweb.owlapi/error#Error6
-<http://org.semanticweb.owlapi/error#Error6> rdf:type owl:Class .
-
-
 ###  http://w3id.org/circularfactory/Core#AtomicTask
 <http://w3id.org/circularfactory/Core#AtomicTask> rdf:type owl:Class .
 
@@ -384,8 +364,12 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask
 <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask> rdf:type owl:Class ;
-                                                                               rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error3> ,
-                                                                                               <http://w3id.org/circularfactory/Core#AtomicTask> ,
+                                                                               rdfs:subClassOf <http://w3id.org/circularfactory/Core#AtomicTask> ,
+                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                 owl:onProperty <http://w3id.org/circularfactory/IntralogisticSystem#hasTaskStatus> ;
+                                                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                 owl:onClass <http://w3id.org/circularfactory/IntralogisticSystem#TaskStatus>
+                                                                                               ] ,
                                                                                                [ rdf:type owl:Restriction ;
                                                                                                  owl:onProperty <http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestStartTime> ;
                                                                                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
@@ -406,7 +390,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation
 <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation> rdf:type owl:Class ;
-                                                                              rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error6> ,
+                                                                              rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error1> ,
                                                                                               <http://w3id.org/circularfactory/Core#Operation> ,
                                                                                               [ rdf:type owl:Restriction ;
                                                                                                 owl:onProperty <http://w3id.org/circularfactory/IntralogisticSystem#hasOperationStatus> ;
@@ -427,9 +411,17 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask
 <http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask> rdf:type owl:Class ;
-                                                                         rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error4> ,
-                                                                                         <http://org.semanticweb.owlapi/error#Error5> ,
-                                                                                         <http://w3id.org/circularfactory/Core#CompositeTask> ,
+                                                                         rdfs:subClassOf <http://w3id.org/circularfactory/Core#CompositeTask> ,
+                                                                                         [ rdf:type owl:Restriction ;
+                                                                                           owl:onProperty <http://w3id.org/circularfactory/IntralogisticSystem#hasPickupLocation> ;
+                                                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                           owl:onClass <http://w3id.org/circularfactory/Core#Location>
+                                                                                         ] ,
+                                                                                         [ rdf:type owl:Restriction ;
+                                                                                           owl:onProperty <http://w3id.org/circularfactory/IntralogisticSystem#hasTargetLocation> ;
+                                                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                           owl:onClass <http://w3id.org/circularfactory/Core#Location>
+                                                                                         ] ,
                                                                                          [ rdf:type owl:Restriction ;
                                                                                            owl:onProperty <http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestPickUpTime> ;
                                                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
@@ -491,8 +483,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot
 <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot> rdf:type owl:Class ;
-                                                                  rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error2> ,
-                                                                                  <http://w3id.org/circularfactory/Core#Resource> ,
+                                                                  rdfs:subClassOf <http://w3id.org/circularfactory/Core#Resource> ,
                                                                                   [ rdf:type owl:Restriction ;
                                                                                     owl:onProperty <http://w3id.org/circularfactory/Core#hasCapability> ;
                                                                                     owl:someValuesFrom <http://w3id.org/circularfactory/IntralogisticSystem#Mounting>
@@ -518,6 +509,11 @@ xsd:date rdf:type rdfs:Datatype .
                                                                                     owl:someValuesFrom <http://w3id.org/circularfactory/IntralogisticSystem#MecanumWheel>
                                                                                   ] ,
                                                                                   [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotPose> ;
+                                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                    owl:onClass <http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotPose>
+                                                                                  ] ,
+                                                                                  [ rdf:type owl:Restriction ;
                                                                                     owl:onProperty <http://w3id.org/circularfactory/IntralogisticSystem#hasVelocity> ;
                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                     owl:onDataRange xsd:float
@@ -539,8 +535,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://w3id.org/circularfactory/IntralogisticSystem#Module
 <http://w3id.org/circularfactory/IntralogisticSystem#Module> rdf:type owl:Class ;
-                                                             rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error1> ,
-                                                                             <http://w3id.org/circularfactory/Core#Resource> ,
+                                                             rdfs:subClassOf <http://w3id.org/circularfactory/Core#Resource> ,
                                                                              [ rdf:type owl:Restriction ;
                                                                                owl:onProperty <http://w3id.org/circularfactory/IntralogisticSystem#connectsToModuleAdapter> ;
                                                                                owl:someValuesFrom <http://w3id.org/circularfactory/IntralogisticSystem#ModuleAdapter>
@@ -548,6 +543,11 @@ xsd:date rdf:type rdfs:Datatype .
                                                                              [ rdf:type owl:Restriction ;
                                                                                owl:onProperty <http://w3id.org/circularfactory/IntralogisticSystem#hasModuleSchedule> ;
                                                                                owl:someValuesFrom <http://w3id.org/circularfactory/IntralogisticSystem#ModuleSchedule>
+                                                                             ] ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://w3id.org/circularfactory/IntralogisticSystem#hasModulePose> ;
+                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                               owl:onClass <http://w3id.org/circularfactory/IntralogisticSystem#ModulePose>
                                                                              ] ,
                                                                              [ rdf:type owl:Restriction ;
                                                                                owl:onProperty <http://w3id.org/circularfactory/IntralogisticSystem#hasModuleHeight> ;
@@ -663,20 +663,5 @@ xsd:date rdf:type rdfs:Datatype .
 
 [ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
 ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

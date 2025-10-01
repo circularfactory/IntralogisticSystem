@@ -66,10 +66,10 @@
     "id" : "16",
     "type" : "owl:Class"
   }, {
-    "id" : "21",
+    "id" : "20",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "28",
+    "id" : "27",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "2",
@@ -78,10 +78,10 @@
     "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "33",
+    "id" : "31",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "34",
+    "id" : "32",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "15",
@@ -90,148 +90,133 @@
     "id" : "13",
     "type" : "owl:Class"
   }, {
-    "id" : "47",
+    "id" : "45",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "32",
+    "id" : "30",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "25",
+    "id" : "24",
     "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "owl:unionOf"
   }, {
     "id" : "36",
     "type" : "rdfs:Datatype"
   }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
     "id" : "50",
-    "type" : "owl:unionOf"
-  }, {
-    "id" : "38",
     "type" : "rdfs:Datatype"
-  }, {
-    "id" : "51",
-    "type" : "owl:Class"
-  }, {
-    "id" : "52",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "56",
-    "type" : "owl:Class"
-  }, {
-    "id" : "59",
-    "type" : "owl:Class"
-  }, {
-    "id" : "60",
-    "type" : "owl:Class"
   }, {
     "id" : "54",
     "type" : "owl:Class"
   }, {
-    "id" : "62",
-    "type" : "owl:Class"
-  }, {
-    "id" : "5",
-    "type" : "owl:Class"
-  }, {
-    "id" : "63",
-    "type" : "owl:Class"
-  }, {
-    "id" : "76",
-    "type" : "owl:Class"
-  }, {
-    "id" : "4",
-    "type" : "owl:Class"
-  }, {
-    "id" : "67",
-    "type" : "owl:Class"
-  }, {
-    "id" : "23",
-    "type" : "owl:Class"
-  }, {
-    "id" : "49",
+    "id" : "57",
     "type" : "owl:Class"
   }, {
     "id" : "58",
     "type" : "owl:Class"
   }, {
-    "id" : "70",
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
     "type" : "owl:Class"
   }, {
     "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "102",
-    "type" : "owl:Class"
-  }, {
-    "id" : "110",
-    "type" : "owl:Class"
-  }, {
     "id" : "97",
     "type" : "owl:Class"
   }, {
-    "id" : "95",
+    "id" : "105",
     "type" : "owl:Class"
   }, {
     "id" : "9",
     "type" : "owl:Class"
   }, {
-    "id" : "112",
+    "id" : "107",
     "type" : "owl:Class"
   }, {
-    "id" : "86",
+    "id" : "90",
     "type" : "owl:Class"
   }, {
-    "id" : "92",
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
     "type" : "owl:Class"
   }, {
     "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "79",
-    "type" : "owl:Class"
-  }, {
-    "id" : "29",
-    "type" : "owl:Class"
-  }, {
     "id" : "66",
-    "type" : "owl:Class"
-  }, {
-    "id" : "114",
-    "type" : "owl:Class"
-  }, {
-    "id" : "40",
-    "type" : "owl:Class"
-  }, {
-    "id" : "18",
-    "type" : "owl:Class"
-  }, {
-    "id" : "116",
-    "type" : "owl:Class"
-  }, {
-    "id" : "68",
     "type" : "owl:Class"
   }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "77",
+    "id" : "75",
     "type" : "owl:Class"
   }, {
-    "id" : "44",
+    "id" : "42",
     "type" : "owl:Class"
   }, {
-    "id" : "27",
+    "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "83",
+    "id" : "82",
     "type" : "owl:Class"
   }, {
-    "id" : "31",
+    "id" : "29",
     "type" : "owl:Class"
   }, {
-    "id" : "104",
+    "id" : "99",
     "type" : "owl:Class"
   }, {
-    "id" : "20",
+    "id" : "19",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -283,18 +268,18 @@
     },
     "attributes" : [ "external" ],
     "id" : "16",
-    "superClasses" : [ "17", "18" ]
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "21",
+    "id" : "20",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "28",
+    "id" : "27",
     "label" : {
       "IRI-based" : "dateTime"
     }
@@ -312,24 +297,24 @@
     "label" : {
       "IRI-based" : "IntralogisticsAtomicTask"
     },
-    "subClasses" : [ "20", "27", "23", "15" ],
+    "subClasses" : [ "19", "26", "22", "15" ],
     "comment" : {
       "undefined" : "Atomic (non-decomposable) intralogistics task."
     },
     "attributes" : [ "external" ],
     "id" : "12",
-    "superClasses" : [ "13", "29" ]
+    "superClasses" : [ "13" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "33",
+    "id" : "31",
     "label" : {
       "IRI-based" : "dateTimeStamp"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "34",
+    "id" : "32",
     "label" : {
       "IRI-based" : "float"
     }
@@ -356,40 +341,40 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "47",
+    "id" : "45",
     "label" : {
       "IRI-based" : "dateTime"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "32",
+    "id" : "30",
     "label" : {
       "IRI-based" : "dateTime"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "25",
+    "id" : "24",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "36",
+    "id" : "34",
     "label" : {
       "IRI-based" : "dateTime"
     }
   }, {
     "instances" : 0,
     "union" : [ "7", "16" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "50"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "48"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "38",
+    "id" : "36",
     "label" : {
       "IRI-based" : "dateTime"
     }
@@ -401,12 +386,12 @@
       "IRI-based" : "ManipulationCapability"
     },
     "attributes" : [ "external" ],
-    "id" : "51",
+    "id" : "49",
     "superClasses" : [ "5" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "52",
+    "id" : "50",
     "label" : {
       "IRI-based" : "dateTime"
     }
@@ -461,7 +446,7 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "56"
+    "id" : "54"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotSchedule",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -473,7 +458,7 @@
       "undefined" : "Schedule for a MobileRobot."
     },
     "attributes" : [ "external" ],
-    "id" : "59"
+    "id" : "57"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#TaskStatus",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -482,7 +467,7 @@
       "IRI-based" : "TaskStatus"
     },
     "attributes" : [ "external" ],
-    "id" : "60"
+    "id" : "58"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#ModuleSchedule",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -494,7 +479,18 @@
       "undefined" : "Schedule for a Module."
     },
     "attributes" : [ "external" ],
-    "id" : "54"
+    "id" : "64"
+  }, {
+    "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsCapability",
+    "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IntralogisticsCapability"
+    },
+    "subClasses" : [ "4", "61", "49", "66" ],
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "65" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#MoveOperation",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -503,19 +499,8 @@
       "IRI-based" : "MoveOperation"
     },
     "attributes" : [ "external" ],
-    "id" : "62",
+    "id" : "60",
     "superClasses" : [ "1" ]
-  }, {
-    "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsCapability",
-    "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "IntralogisticsCapability"
-    },
-    "subClasses" : [ "4", "63", "51", "68" ],
-    "attributes" : [ "external" ],
-    "id" : "5",
-    "superClasses" : [ "67" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#MoveCapability",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -524,7 +509,7 @@
       "IRI-based" : "MoveCapability"
     },
     "attributes" : [ "external" ],
-    "id" : "63",
+    "id" : "61",
     "superClasses" : [ "5" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/Core#Sensor",
@@ -533,9 +518,9 @@
     "label" : {
       "IRI-based" : "Sensor"
     },
-    "subClasses" : [ "77" ],
+    "subClasses" : [ "75" ],
     "attributes" : [ "external" ],
-    "id" : "76"
+    "id" : "74"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfCapability",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -555,7 +540,7 @@
     },
     "subClasses" : [ "5" ],
     "attributes" : [ "external" ],
-    "id" : "67"
+    "id" : "65"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#MoveTask",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -564,7 +549,7 @@
       "IRI-based" : "MoveTask"
     },
     "attributes" : [ "external" ],
-    "id" : "23",
+    "id" : "22",
     "superClasses" : [ "12" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotPose",
@@ -577,7 +562,7 @@
       "undefined" : "The pose of a mobile robot."
     },
     "attributes" : [ "external" ],
-    "id" : "49",
+    "id" : "47",
     "superClasses" : [ "9" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfOperation",
@@ -587,7 +572,7 @@
       "IRI-based" : "MoveSelfOperation"
     },
     "attributes" : [ "external" ],
-    "id" : "58",
+    "id" : "56",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#ModuleAdapter",
@@ -600,8 +585,8 @@
       "undefined" : "Adapter to connect a mobile robot and a module."
     },
     "attributes" : [ "external" ],
-    "id" : "70",
-    "superClasses" : [ "18" ]
+    "id" : "52",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#Module",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -609,13 +594,13 @@
     "label" : {
       "IRI-based" : "Module"
     },
-    "subClasses" : [ "6", "104" ],
+    "subClasses" : [ "6", "99" ],
     "comment" : {
       "undefined" : "An intralogistic module that can be mounted and moved by a MobileRobot."
     },
     "attributes" : [ "external" ],
     "id" : "7",
-    "superClasses" : [ "92", "18" ]
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/Core#Operation",
     "baseIri" : "http://w3id.org/circularfactory/Core",
@@ -625,7 +610,7 @@
     },
     "subClasses" : [ "1" ],
     "attributes" : [ "external" ],
-    "id" : "102"
+    "id" : "97"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#Mounting",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -634,27 +619,7 @@
       "IRI-based" : "Mounting"
     },
     "attributes" : [ "external" ],
-    "id" : "110"
-  }, {
-    "iri" : "http://org.semanticweb.owlapi/error#Error4",
-    "baseIri" : "http://org.semanticweb.owlapi/error",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Error4"
-    },
-    "subClasses" : [ "31" ],
-    "attributes" : [ "external" ],
-    "id" : "97"
-  }, {
-    "iri" : "http://org.semanticweb.owlapi/error#Error5",
-    "baseIri" : "http://org.semanticweb.owlapi/error",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Error5"
-    },
-    "subClasses" : [ "31" ],
-    "attributes" : [ "external" ],
-    "id" : "95"
+    "id" : "105"
   }, {
     "iri" : "http://w3id.org/circularfactory/Core#Location",
     "baseIri" : "http://w3id.org/circularfactory/Core",
@@ -662,7 +627,7 @@
     "label" : {
       "IRI-based" : "Location"
     },
-    "subClasses" : [ "8", "49" ],
+    "subClasses" : [ "8", "47" ],
     "attributes" : [ "external" ],
     "id" : "9"
   }, {
@@ -673,17 +638,7 @@
       "IRI-based" : "OperationStatus"
     },
     "attributes" : [ "external" ],
-    "id" : "112"
-  }, {
-    "iri" : "http://org.semanticweb.owlapi/error#Error6",
-    "baseIri" : "http://org.semanticweb.owlapi/error",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Error6"
-    },
-    "subClasses" : [ "1" ],
-    "attributes" : [ "external" ],
-    "id" : "86"
+    "id" : "107"
   }, {
     "iri" : "http://org.semanticweb.owlapi/error#Error1",
     "baseIri" : "http://org.semanticweb.owlapi/error",
@@ -691,19 +646,9 @@
     "label" : {
       "IRI-based" : "Error1"
     },
-    "subClasses" : [ "7" ],
+    "subClasses" : [ "1" ],
     "attributes" : [ "external" ],
-    "id" : "92"
-  }, {
-    "iri" : "http://org.semanticweb.owlapi/error#Error2",
-    "baseIri" : "http://org.semanticweb.owlapi/error",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Error2"
-    },
-    "subClasses" : [ "16" ],
-    "attributes" : [ "external" ],
-    "id" : "17"
+    "id" : "90"
   }, {
     "iri" : "http://w3id.org/circularfactory/Core#CompositeTask",
     "baseIri" : "http://w3id.org/circularfactory/Core",
@@ -711,19 +656,9 @@
     "label" : {
       "IRI-based" : "CompositeTask"
     },
-    "subClasses" : [ "31" ],
+    "subClasses" : [ "29" ],
     "attributes" : [ "external" ],
-    "id" : "79"
-  }, {
-    "iri" : "http://org.semanticweb.owlapi/error#Error3",
-    "baseIri" : "http://org.semanticweb.owlapi/error",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Error3"
-    },
-    "subClasses" : [ "12" ],
-    "attributes" : [ "external" ],
-    "id" : "29"
+    "id" : "85"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#ChargingStation",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -735,8 +670,8 @@
       "undefined" : "Charging stations where modules can be charged."
     },
     "attributes" : [ "external" ],
-    "id" : "66",
-    "superClasses" : [ "18" ]
+    "id" : "73",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#StartSignal",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -748,7 +683,7 @@
       "undefined" : "Signal indicating the start of an operation."
     },
     "attributes" : [ "external" ],
-    "id" : "114"
+    "id" : "109"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#Auctioneer",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -761,17 +696,7 @@
       "undefined" : "Auctions tasks and awards them to resources."
     },
     "attributes" : [ "external" ],
-    "id" : "40"
-  }, {
-    "iri" : "http://w3id.org/circularfactory/Core#Resource",
-    "baseIri" : "http://w3id.org/circularfactory/Core",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Resource"
-    },
-    "subClasses" : [ "83", "7", "16", "70", "66" ],
-    "attributes" : [ "external" ],
-    "id" : "18"
+    "id" : "38"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#ManipulationOperation",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -780,8 +705,18 @@
       "IRI-based" : "ManipulationOperation"
     },
     "attributes" : [ "external" ],
-    "id" : "116",
+    "id" : "63",
     "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://w3id.org/circularfactory/Core#Resource",
+    "baseIri" : "http://w3id.org/circularfactory/Core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource"
+    },
+    "subClasses" : [ "82", "7", "16", "52", "73" ],
+    "attributes" : [ "external" ],
+    "id" : "17"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#ChargingCapability",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -790,7 +725,7 @@
       "IRI-based" : "ChargingCapability"
     },
     "attributes" : [ "external" ],
-    "id" : "68",
+    "id" : "66",
     "superClasses" : [ "5" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation",
@@ -799,10 +734,10 @@
     "label" : {
       "IRI-based" : "IntralogisticsOperation"
     },
-    "subClasses" : [ "62", "10", "116", "58" ],
+    "subClasses" : [ "60", "10", "63", "56" ],
     "attributes" : [ "external" ],
     "id" : "1",
-    "superClasses" : [ "86", "102" ]
+    "superClasses" : [ "90", "97" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#LaserScanner",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -814,8 +749,8 @@
       "undefined" : "Laser-based localization or safety sensor."
     },
     "attributes" : [ "external" ],
-    "id" : "77",
-    "superClasses" : [ "76" ]
+    "id" : "75",
+    "superClasses" : [ "74" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/Core#Task",
     "baseIri" : "http://w3id.org/circularfactory/Core",
@@ -824,7 +759,7 @@
       "IRI-based" : "Task"
     },
     "attributes" : [ "external" ],
-    "id" : "44"
+    "id" : "42"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#ManipulationTask",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -833,7 +768,7 @@
       "IRI-based" : "ManipulationTask"
     },
     "attributes" : [ "external" ],
-    "id" : "27",
+    "id" : "26",
     "superClasses" : [ "12" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#MecanumWheel",
@@ -846,8 +781,8 @@
       "undefined" : "Omnidirectional wheel for AMRs."
     },
     "attributes" : [ "external" ],
-    "id" : "83",
-    "superClasses" : [ "18" ]
+    "id" : "82",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -859,8 +794,8 @@
       "undefined" : "Composite task in the intralogistics domain."
     },
     "attributes" : [ "external" ],
-    "id" : "31",
-    "superClasses" : [ "97", "95", "79" ]
+    "id" : "29",
+    "superClasses" : [ "85" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#TransportModule",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -872,7 +807,7 @@
       "undefined" : "Module specialized for transporting items/loads."
     },
     "attributes" : [ "external" ],
-    "id" : "104",
+    "id" : "99",
     "superClasses" : [ "7" ]
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#MoveSelfTask",
@@ -882,7 +817,7 @@
       "IRI-based" : "MoveSelfTask"
     },
     "attributes" : [ "external" ],
-    "id" : "20",
+    "id" : "19",
     "superClasses" : [ "12" ]
   } ],
   "property" : [ {
@@ -898,112 +833,121 @@
     "id" : "14",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "19",
+    "id" : "18",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "22",
+    "id" : "21",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "24",
+    "id" : "23",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "26",
+    "id" : "25",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "30",
+    "id" : "28",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "35",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "37",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "39",
     "type" : "owl:objectProperty"
   }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "41",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "42",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "43",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "45",
+    "id" : "43",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "48",
+    "id" : "46",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "53",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "55",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "57",
+    "id" : "55",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "61",
+    "id" : "59",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "64",
+    "id" : "62",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "65",
+    "id" : "67",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "69",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "71",
     "type" : "owl:objectProperty"
   }, {
     "id" : "72",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "73",
-    "type" : "owl:objectProperty"
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "74",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "75",
+    "id" : "77",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "80",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "81",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "82",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "84",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "85",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "87",
+    "id" : "86",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "88",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "89",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "90",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "93",
@@ -1012,7 +956,7 @@
     "id" : "94",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "46",
+    "id" : "95",
     "type" : "owl:objectProperty"
   }, {
     "id" : "96",
@@ -1021,106 +965,82 @@
     "id" : "98",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "99",
+    "id" : "100",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "100",
-    "type" : "owl:objectProperty"
-  }, {
     "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "103",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "105",
-    "type" : "rdfs:SubClassOf"
+    "id" : "104",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "106",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "107",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "108",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "109",
+    "id" : "110",
     "type" : "owl:objectProperty"
   }, {
     "id" : "111",
     "type" : "owl:objectProperty"
   }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "113",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "114",
     "type" : "owl:objectProperty"
   }, {
     "id" : "115",
-    "type" : "owl:objectProperty"
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "116",
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "117",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "118",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "119",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "120",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "121",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "122",
-    "type" : "owl:objectProperty"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "123",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "124",
-    "type" : "owl:objectProperty"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "125",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "126",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "127",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "128",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "129",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "130",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "131",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "132",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "133",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "134",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "135",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "136",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "137",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "138",
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
@@ -1132,7 +1052,7 @@
     },
     "cardinality" : "1",
     "domain" : "1",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "0"
   }, {
     "range" : "5",
@@ -1151,18 +1071,18 @@
     "id" : "14"
   }, {
     "range" : "12",
-    "domain" : "20",
+    "domain" : "19",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "19"
+    "id" : "18"
   }, {
     "range" : "12",
-    "domain" : "23",
+    "domain" : "22",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "22"
+    "id" : "21"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasModuleHeight",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "25",
+    "range" : "24",
     "label" : {
       "IRI-based" : "hasModuleHeight"
     },
@@ -1171,46 +1091,46 @@
     "comment" : {
       "undefined" : "Height of the module in mm."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "24"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "23"
   }, {
     "range" : "12",
-    "domain" : "27",
+    "domain" : "26",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "26"
+    "id" : "25"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasLatestFinishTime",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "32",
+    "range" : "30",
     "label" : {
       "IRI-based" : "hasLatestFinishTime"
     },
     "cardinality" : "1",
-    "domain" : "31",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "30"
+    "domain" : "29",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "28"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestPickUpTime",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "36",
+    "range" : "34",
     "label" : {
       "IRI-based" : "hasEarliestPickUpTime"
     },
     "cardinality" : "1",
-    "domain" : "31",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "35"
+    "domain" : "29",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "33"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasLatestDeliveryTime",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "38",
+    "range" : "36",
     "label" : {
       "IRI-based" : "hasLatestDeliveryTime"
     },
     "cardinality" : "1",
-    "domain" : "31",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "37"
+    "domain" : "29",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "35"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#createsIntralogisticsAtomicTask",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -1218,12 +1138,12 @@
     "label" : {
       "IRI-based" : "createsIntralogisticsAtomicTask"
     },
-    "domain" : "40",
+    "domain" : "38",
     "comment" : {
       "undefined" : "An intralogistics atomic task created by an auctioneer."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "39"
+    "id" : "37"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#createsIntralogisticsOperation",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -1231,16 +1151,16 @@
     "label" : {
       "IRI-based" : "createsIntralogisticsOperation"
     },
-    "domain" : "40",
+    "domain" : "38",
     "comment" : {
       "undefined" : "An intralogistics operation created by an auctioneer."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "41"
+    "id" : "39"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#distributedByAuctioneer",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "40",
+    "range" : "38",
     "label" : {
       "IRI-based" : "distributedByAuctioneer"
     },
@@ -1249,20 +1169,20 @@
       "undefined" : "Auctioneer that distributed the task."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "42"
+    "id" : "40"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#starting_time",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "33",
+    "range" : "31",
     "label" : {
       "IRI-based" : "starting_time"
     },
-    "domain" : "44",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "43"
+    "domain" : "42",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "41"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasMountedModule",
-    "inverse" : "46",
+    "inverse" : "44",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
     "range" : "7",
     "label" : {
@@ -1270,27 +1190,30 @@
     },
     "domain" : "16",
     "attributes" : [ "external", "object" ],
-    "id" : "45"
+    "id" : "43"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotPose",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "49",
+    "range" : "47",
     "label" : {
       "IRI-based" : "hasMobileRobotPose"
     },
     "domain" : "16",
     "attributes" : [ "external", "object" ],
-    "id" : "48"
+    "id" : "46"
   }, {
-    "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasModuleSchedule",
+    "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#connectsToModuleAdapter",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "54",
+    "range" : "52",
     "label" : {
-      "IRI-based" : "hasModuleSchedule"
+      "IRI-based" : "connectsToModuleAdapter"
     },
     "domain" : "7",
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "53"
+    "comment" : {
+      "undefined" : "Module that can be connected to a MobileRobot via this adapter."
+    },
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "51"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasModulePose",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -1300,7 +1223,7 @@
     },
     "domain" : "7",
     "attributes" : [ "external", "object" ],
-    "id" : "55"
+    "id" : "53"
   }, {
     "iri" : "http://w3id.org/circularfactory/Core#implementsCapability",
     "baseIri" : "http://w3id.org/circularfactory/Core",
@@ -1308,34 +1231,29 @@
     "label" : {
       "IRI-based" : "implementsCapability"
     },
-    "domain" : "58",
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "57"
+    "domain" : "56",
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "55"
   }, {
     "iri" : "http://w3id.org/circularfactory/Core#implementsCapability",
     "baseIri" : "http://w3id.org/circularfactory/Core",
-    "range" : "63",
+    "range" : "61",
     "label" : {
       "IRI-based" : "implementsCapability"
     },
-    "domain" : "62",
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "61"
+    "domain" : "60",
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "59"
   }, {
-    "range" : "18",
-    "domain" : "16",
+    "range" : "1",
+    "domain" : "63",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "64"
+    "id" : "62"
   }, {
-    "range" : "18",
-    "domain" : "66",
+    "range" : "1",
+    "domain" : "56",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "65"
-  }, {
-    "range" : "18",
-    "domain" : "70",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "69"
+    "id" : "67"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#connectsToModuleAdapter",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -1343,23 +1261,23 @@
     "label" : {
       "IRI-based" : "connectsToModuleAdapter"
     },
-    "domain" : "70",
+    "domain" : "52",
     "comment" : {
       "undefined" : "Module that can be connected to a MobileRobot via this adapter."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "71"
+    "id" : "68"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasLatestPickUpTime",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "47",
+    "range" : "45",
     "label" : {
       "IRI-based" : "hasLatestPickUpTime"
     },
     "cardinality" : "1",
-    "domain" : "31",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "72"
+    "domain" : "29",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "69"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#auctionsToModule",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -1367,12 +1285,12 @@
     "label" : {
       "IRI-based" : "auctionsToModule"
     },
-    "domain" : "40",
+    "domain" : "38",
     "comment" : {
       "undefined" : "Module that is auctioning a task."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "73"
+    "id" : "70"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#auctionsToMobileRobot",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -1380,106 +1298,106 @@
     "label" : {
       "IRI-based" : "auctionsToMobileRobot"
     },
-    "domain" : "40",
+    "domain" : "38",
     "comment" : {
       "undefined" : "Mobile robot that is auctioning a task."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "74"
+    "id" : "71"
   }, {
-    "range" : "29",
-    "domain" : "12",
+    "range" : "17",
+    "domain" : "73",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "75"
+    "id" : "72"
   }, {
-    "range" : "79",
-    "domain" : "31",
+    "range" : "17",
+    "domain" : "52",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "78"
+    "id" : "76"
   }, {
-    "range" : "18",
-    "domain" : "7",
+    "range" : "1",
+    "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "80"
+    "id" : "77"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#system_status",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "21",
+    "range" : "20",
     "label" : {
       "IRI-based" : "system_status"
     },
-    "domain" : "44",
+    "domain" : "42",
     "comment" : {
       "undefined" : "Current status of task execution (e.g., planned, running, success, failure)."
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "81"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "78"
   }, {
-    "range" : "18",
-    "domain" : "83",
+    "range" : "1",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "82"
+    "id" : "79"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasPlannedStartTime",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "28",
+    "range" : "27",
     "label" : {
       "IRI-based" : "hasPlannedStartTime"
     },
     "cardinality" : "1",
     "domain" : "1",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "84"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "80"
   }, {
-    "range" : "86",
-    "domain" : "1",
+    "range" : "17",
+    "domain" : "82",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "85"
+    "id" : "81"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotSchedule",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "59",
+    "range" : "57",
     "label" : {
       "IRI-based" : "hasMobileRobotSchedule"
     },
     "domain" : "16",
     "attributes" : [ "external", "object" ],
-    "id" : "87"
+    "id" : "83"
   }, {
-    "range" : "9",
-    "domain" : "49",
+    "range" : "85",
+    "domain" : "29",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "88"
+    "id" : "84"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasTaskStatus",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "60",
+    "range" : "58",
     "label" : {
       "IRI-based" : "hasTaskStatus"
     },
     "domain" : "12",
     "attributes" : [ "external", "object" ],
-    "id" : "89"
+    "id" : "86"
   }, {
     "range" : "17",
     "domain" : "16",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "90"
+    "id" : "87"
   }, {
-    "range" : "92",
+    "range" : "17",
     "domain" : "7",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "91"
+    "id" : "88"
+  }, {
+    "range" : "90",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "89"
   }, {
     "range" : "9",
-    "domain" : "8",
+    "domain" : "47",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "93"
-  }, {
-    "range" : "95",
-    "domain" : "31",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "94"
+    "id" : "91"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#mountedOn",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -1492,26 +1410,26 @@
       "undefined" : "Module currently mounted on a MobileRobot."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "46"
+    "id" : "44"
   }, {
-    "range" : "97",
-    "domain" : "31",
+    "range" : "9",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "96"
+    "id" : "92"
   }, {
     "range" : "7",
     "domain" : "6",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "98"
+    "id" : "93"
   }, {
-    "range" : "67",
+    "range" : "65",
     "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "99"
+    "id" : "94"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasWheel",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "83",
+    "range" : "82",
     "label" : {
       "IRI-based" : "hasWheel"
     },
@@ -1520,61 +1438,61 @@
       "undefined" : "Omnidirectional wheel used by a MobileRobot."
     },
     "attributes" : [ "external", "object" ],
+    "id" : "95"
+  }, {
+    "range" : "97",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "96"
+  }, {
+    "range" : "7",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "98"
+  }, {
+    "range" : "5",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "100"
   }, {
-    "range" : "102",
-    "domain" : "1",
+    "range" : "5",
+    "domain" : "61",
     "attributes" : [ "anonymous", "object" ],
     "id" : "101"
   }, {
-    "range" : "7",
-    "domain" : "104",
+    "range" : "74",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "102"
+  }, {
+    "range" : "5",
+    "domain" : "66",
     "attributes" : [ "anonymous", "object" ],
     "id" : "103"
   }, {
-    "range" : "5",
-    "domain" : "51",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "105"
-  }, {
-    "range" : "5",
-    "domain" : "63",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "106"
-  }, {
-    "range" : "76",
-    "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "107"
-  }, {
-    "range" : "5",
-    "domain" : "68",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "108"
-  }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasModuleSchedule",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "54",
+    "range" : "64",
     "label" : {
       "IRI-based" : "hasModuleSchedule"
     },
     "domain" : "7",
     "attributes" : [ "external", "object" ],
-    "id" : "109"
+    "id" : "104"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasOperationStatus",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "112",
+    "range" : "107",
     "label" : {
       "IRI-based" : "hasOperationStatus"
     },
     "domain" : "1",
     "attributes" : [ "external", "object" ],
-    "id" : "111"
+    "id" : "106"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#sendsStartSignal",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "114",
+    "range" : "109",
     "label" : {
       "IRI-based" : "sendsStartSignal"
     },
@@ -1583,44 +1501,24 @@
       "undefined" : "Signal sent by a module to indicate the start of an operation."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "113"
+    "id" : "108"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasInputTask",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "31",
+    "range" : "29",
     "label" : {
       "IRI-based" : "hasInputTask"
     },
-    "domain" : "40",
+    "domain" : "38",
     "comment" : {
       "undefined" : "Input task required to perform the operation."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "115"
-  }, {
-    "range" : "1",
-    "domain" : "10",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "117"
-  }, {
-    "range" : "1",
-    "domain" : "62",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "118"
-  }, {
-    "range" : "1",
-    "domain" : "58",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "119"
-  }, {
-    "range" : "1",
-    "domain" : "116",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "120"
+    "id" : "110"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasLaserScanner",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "77",
+    "range" : "75",
     "label" : {
       "IRI-based" : "hasLaserScanner"
     },
@@ -1629,7 +1527,7 @@
       "undefined" : "Laser scanner mounted on a MobileRobot."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "121"
+    "id" : "111"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasTargetLocation",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -1637,23 +1535,23 @@
     "label" : {
       "IRI-based" : "hasTargetLocation"
     },
-    "domain" : "31",
+    "domain" : "29",
     "attributes" : [ "external", "object" ],
-    "id" : "122"
+    "id" : "112"
   }, {
     "iri" : "http://w3id.org/circularfactory/Core#hasCapability",
     "baseIri" : "http://w3id.org/circularfactory/Core",
-    "range" : "51",
+    "range" : "49",
     "label" : {
       "IRI-based" : "hasCapability"
     },
     "domain" : "6",
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "123"
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "113"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasModuleAdapter",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "70",
+    "range" : "52",
     "label" : {
       "IRI-based" : "hasModuleAdapter"
     },
@@ -1662,31 +1560,11 @@
       "undefined" : "Adapter used by a MobileRobot to connect to a Module."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "124"
-  }, {
-    "iri" : "http://w3id.org/circularfactory/Core#hasCapability",
-    "baseIri" : "http://w3id.org/circularfactory/Core",
-    "range" : "63",
-    "label" : {
-      "IRI-based" : "hasCapability"
-    },
-    "domain" : "16",
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "125"
-  }, {
-    "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotSchedule",
-    "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "59",
-    "label" : {
-      "IRI-based" : "hasMobileRobotSchedule"
-    },
-    "domain" : "16",
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "126"
+    "id" : "114"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasWheel",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "83",
+    "range" : "82",
     "label" : {
       "IRI-based" : "hasWheel"
     },
@@ -1694,12 +1572,32 @@
     "comment" : {
       "undefined" : "Omnidirectional wheel used by a MobileRobot."
     },
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "127"
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://w3id.org/circularfactory/Core#hasCapability",
+    "baseIri" : "http://w3id.org/circularfactory/Core",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "hasCapability"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotSchedule",
+    "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "hasMobileRobotSchedule"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "117"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasLaserScanner",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "77",
+    "range" : "75",
     "label" : {
       "IRI-based" : "hasLaserScanner"
     },
@@ -1707,22 +1605,12 @@
     "comment" : {
       "undefined" : "Laser scanner mounted on a MobileRobot."
     },
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "128"
-  }, {
-    "iri" : "http://w3id.org/circularfactory/Core#hasCapability",
-    "baseIri" : "http://w3id.org/circularfactory/Core",
-    "range" : "110",
-    "label" : {
-      "IRI-based" : "hasCapability"
-    },
-    "domain" : "16",
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "129"
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "118"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasModuleAdapter",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "70",
+    "range" : "52",
     "label" : {
       "IRI-based" : "hasModuleAdapter"
     },
@@ -1730,12 +1618,22 @@
     "comment" : {
       "undefined" : "Adapter used by a MobileRobot to connect to a Module."
     },
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "130"
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://w3id.org/circularfactory/Core#hasCapability",
+    "baseIri" : "http://w3id.org/circularfactory/Core",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "hasCapability"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "120"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasVelocity",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "34",
+    "range" : "32",
     "label" : {
       "IRI-based" : "hasVelocity"
     },
@@ -1744,52 +1642,49 @@
     "comment" : {
       "undefined" : "m/s"
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "131"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "121"
   }, {
-    "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#connectsToModuleAdapter",
+    "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasModuleSchedule",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "70",
+    "range" : "64",
     "label" : {
-      "IRI-based" : "connectsToModuleAdapter"
+      "IRI-based" : "hasModuleSchedule"
     },
     "domain" : "7",
-    "comment" : {
-      "undefined" : "Module that can be connected to a MobileRobot via this adapter."
-    },
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "132"
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "122"
   }, {
     "iri" : "http://w3id.org/circularfactory/Core#implementsCapability",
     "baseIri" : "http://w3id.org/circularfactory/Core",
-    "range" : "68",
+    "range" : "66",
     "label" : {
       "IRI-based" : "implementsCapability"
     },
     "domain" : "10",
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "133"
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "123"
   }, {
     "iri" : "http://w3id.org/circularfactory/Core#implementsCapability",
     "baseIri" : "http://w3id.org/circularfactory/Core",
-    "range" : "51",
+    "range" : "49",
     "label" : {
       "IRI-based" : "implementsCapability"
     },
-    "domain" : "116",
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "134"
+    "domain" : "63",
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "124"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestStartTime",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "52",
+    "range" : "50",
     "label" : {
       "IRI-based" : "hasEarliestStartTime"
     },
     "cardinality" : "1",
-    "domain" : "31",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "135"
+    "domain" : "29",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "125"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasPickupLocation",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -1797,22 +1692,22 @@
     "label" : {
       "IRI-based" : "hasPickupLocation"
     },
-    "domain" : "31",
+    "domain" : "29",
     "attributes" : [ "external", "object" ],
-    "id" : "136"
+    "id" : "126"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#givesBid",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "40",
+    "range" : "38",
     "label" : {
       "IRI-based" : "givesBid"
     },
-    "domain" : "50",
+    "domain" : "48",
     "comment" : {
       "undefined" : "Resource (robot or module) that places a bid for a task auctioned by the auctioneer."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "137"
+    "id" : "127"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#charges",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
@@ -1820,8 +1715,8 @@
     "label" : {
       "IRI-based" : "charges"
     },
-    "domain" : "66",
+    "domain" : "73",
     "attributes" : [ "external", "object" ],
-    "id" : "138"
+    "id" : "128"
   } ]
 }

@@ -510,41 +510,6 @@
     
 
 
-    <!-- http://org.semanticweb.owlapi/error#Error2 -->
-
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error2"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error3 -->
-
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error3"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error4 -->
-
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error4"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error5 -->
-
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error5"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error6 -->
-
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error6"/>
-    
-
-
     <!-- http://w3id.org/circularfactory/Core#AtomicTask -->
 
 
@@ -658,8 +623,14 @@
 
 
     <owl:Class rdf:about="http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsAtomicTask">
-        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error3"/>
         <rdfs:subClassOf rdf:resource="http://w3id.org/circularfactory/Core#AtomicTask"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/circularfactory/IntralogisticSystem#hasTaskStatus"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/circularfactory/IntralogisticSystem#TaskStatus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestStartTime"/>
@@ -692,7 +663,7 @@
 
 
     <owl:Class rdf:about="http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsOperation">
-        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error6"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error1"/>
         <rdfs:subClassOf rdf:resource="http://w3id.org/circularfactory/Core#Operation"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -723,9 +694,21 @@
 
 
     <owl:Class rdf:about="http://w3id.org/circularfactory/IntralogisticSystem#IntralogisticsTask">
-        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error4"/>
-        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error5"/>
         <rdfs:subClassOf rdf:resource="http://w3id.org/circularfactory/Core#CompositeTask"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/circularfactory/IntralogisticSystem#hasPickupLocation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/circularfactory/Core#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/circularfactory/IntralogisticSystem#hasTargetLocation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/circularfactory/Core#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://w3id.org/circularfactory/IntralogisticSystem#hasEarliestPickUpTime"/>
@@ -825,7 +808,6 @@
 
 
     <owl:Class rdf:about="http://w3id.org/circularfactory/IntralogisticSystem#MobileRobot">
-        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error2"/>
         <rdfs:subClassOf rdf:resource="http://w3id.org/circularfactory/Core#Resource"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -865,6 +847,13 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotPose"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotPose"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://w3id.org/circularfactory/IntralogisticSystem#hasVelocity"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -899,7 +888,6 @@
 
 
     <owl:Class rdf:about="http://w3id.org/circularfactory/IntralogisticSystem#Module">
-        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error1"/>
         <rdfs:subClassOf rdf:resource="http://w3id.org/circularfactory/Core#Resource"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -911,6 +899,13 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://w3id.org/circularfactory/IntralogisticSystem#hasModuleSchedule"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/circularfactory/IntralogisticSystem#ModuleSchedule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/circularfactory/IntralogisticSystem#hasModulePose"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/circularfactory/IntralogisticSystem#ModulePose"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1106,21 +1101,6 @@
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <foaf:name>Pietro Schumacher</foaf:name>
     </owl:NamedIndividual>
-    <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-    </rdf:Description>
     <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
     </rdf:Description>
