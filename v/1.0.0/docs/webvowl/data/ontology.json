@@ -448,6 +448,15 @@
     "attributes" : [ "external" ],
     "id" : "54"
   }, {
+    "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#TaskStatus",
+    "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TaskStatus"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57"
+  }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#MobileRobotSchedule",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
     "instances" : 0,
@@ -456,15 +465,6 @@
     },
     "comment" : {
       "undefined" : "Schedule for a MobileRobot."
-    },
-    "attributes" : [ "external" ],
-    "id" : "57"
-  }, {
-    "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#TaskStatus",
-    "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "TaskStatus"
     },
     "attributes" : [ "external" ],
     "id" : "58"
@@ -1356,7 +1356,7 @@
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotSchedule",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "57",
+    "range" : "58",
     "label" : {
       "IRI-based" : "hasMobileRobotSchedule"
     },
@@ -1371,7 +1371,7 @@
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasTaskStatus",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "58",
+    "range" : "57",
     "label" : {
       "IRI-based" : "hasTaskStatus"
     },
@@ -1562,6 +1562,16 @@
     "attributes" : [ "external", "object" ],
     "id" : "114"
   }, {
+    "iri" : "http://w3id.org/circularfactory/Core#hasCapability",
+    "baseIri" : "http://w3id.org/circularfactory/Core",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "hasCapability"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "115"
+  }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasWheel",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
     "range" : "82",
@@ -1573,21 +1583,11 @@
       "undefined" : "Omnidirectional wheel used by a MobileRobot."
     },
     "attributes" : [ "external", "object", "someValues" ],
-    "id" : "115"
-  }, {
-    "iri" : "http://w3id.org/circularfactory/Core#hasCapability",
-    "baseIri" : "http://w3id.org/circularfactory/Core",
-    "range" : "105",
-    "label" : {
-      "IRI-based" : "hasCapability"
-    },
-    "domain" : "16",
-    "attributes" : [ "external", "object", "someValues" ],
     "id" : "116"
   }, {
     "iri" : "http://w3id.org/circularfactory/IntralogisticSystem#hasMobileRobotSchedule",
     "baseIri" : "http://w3id.org/circularfactory/IntralogisticSystem",
-    "range" : "57",
+    "range" : "58",
     "label" : {
       "IRI-based" : "hasMobileRobotSchedule"
     },
@@ -1623,7 +1623,7 @@
   }, {
     "iri" : "http://w3id.org/circularfactory/Core#hasCapability",
     "baseIri" : "http://w3id.org/circularfactory/Core",
-    "range" : "61",
+    "range" : "105",
     "label" : {
       "IRI-based" : "hasCapability"
     },
